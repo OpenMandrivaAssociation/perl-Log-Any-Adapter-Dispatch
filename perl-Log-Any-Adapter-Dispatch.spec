@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    No summary found
 License:    GPL+ or Artistic
@@ -13,9 +13,10 @@ Source0:    http://www.cpan.org/modules/by-module/Log/%{upstream_name}-%{upstrea
 
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(File::Temp)
-BuildRequires: perl(Log::Any::Adapter)
 BuildRequires: perl(Log::Dispatch)
 BuildRequires: perl(Test::More)
+BuildRequires: perl(Log::Any::Adapter)
+BuildRequires: perl-Log-Any-Adapter
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
