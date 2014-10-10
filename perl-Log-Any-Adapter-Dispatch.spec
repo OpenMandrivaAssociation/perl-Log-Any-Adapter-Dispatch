@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Release:	5
 
 Summary:	This Log::Any adapter uses Log::Dispatch for logging
 License:	GPL+ or Artistic
